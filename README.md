@@ -12,9 +12,9 @@
 
 ## EXAMPLES
 
-* [xxx](https://github.com/JeffDeCola/my-python-examples/tree/master/xxxx)
+* [read-file](https://github.com/JeffDeCola/my-python-examples/tree/master/read-file)
 
-   _xxxxx._
+  _Reading a file a few different ways._
 
 ## TESTED USING CONCOURSE
 
