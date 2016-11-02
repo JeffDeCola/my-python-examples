@@ -10,7 +10,7 @@
 
 [GitHub Webpage](https://jeffdecola.github.io/my-python-examples/)
 
-# EXAMPLES
+## EXAMPLES
 
 * [xxx](https://github.com/JeffDeCola/my-python-examples/tree/master/xxxx)
 
