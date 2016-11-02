@@ -27,7 +27,8 @@ A _ci/.credentials.yml_ file needs to be created for your _slack_url_ and _repo_
 Use fly to upload the the pipeline file _ci/pipline.yml_ to Concourse:
 
 ```bash
-fly -t ci set-pipeline -p my-python-examples -c ci/pipeline.yml --load-vars-from ci/.credentials.yml
+fly -t ci set-pipeline -p my-python-examples -c ci/pipeline.yml\
+--load-vars-from ci/.credentials.yml
 ```
 
 ## CONCOURSE RESOURCES IN PIPELINE
