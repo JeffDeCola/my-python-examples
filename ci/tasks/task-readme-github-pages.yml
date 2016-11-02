@@ -1,4 +1,4 @@
-# my-go-examples task-readme-github-pages.yml
+# my-python-examples task-readme-github-pages.yml
 
 platform: linux
 
@@ -9,10 +9,10 @@ image_resource:
     tag: 1.7.1
 
 inputs:
-- name: my-go-examples
+- name: my-python-examples
 
 outputs:
-- name: my-go-examples-updated
+- name: my-python-examples-updated
 
 run:
-  path: ./my-go-examples/ci/scripts/readme-github-pages.sh
+  path: ./my-python-examples/ci/scripts/readme-github-pages.sh
