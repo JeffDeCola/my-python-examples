@@ -1,22 +1,11 @@
----
 engines:
-  fixme:
+  pep8:
     enabled: true
-  gofmt:
+  duplication:
     enabled: true
-  golint:
-    enabled: true
-  govet:
-    enabled: true
-  markdownlint:
-    enabled: true
-    checks:
-      MD030:
-        enabled: false
+    config:
+      languages:
+        - python
 ratings:
   paths:
-  - "**.go"
-exclude_paths:
-- "**/vendor/**/*"
-- "**/mocks/**/*"
-- "**/*_test.go"
+    - "**.py"
