@@ -2,11 +2,11 @@
 # my-python-examples read-file.py
 
 def main():
-    
+
     print("Method 1 (f.read()) - Read entire file contents into memory")
     f = open('readthis.txt', 'r')
     file_contents = f.read()
-    print (file_contents)
+    print(file_contents)
     f.close()
 
     print("Method 2 (f.readlines()) - Read entire file into list")
