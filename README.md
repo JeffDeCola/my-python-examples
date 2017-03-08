@@ -2,8 +2,6 @@
 
 [![Code Climate](https://codeclimate.com/github/JeffDeCola/my-python-examples/badges/gpa.svg)](https://codeclimate.com/github/JeffDeCola/my-python-examples)
 [![Issue Count](https://codeclimate.com/github/JeffDeCola/my-python-examples/badges/issue_count.svg)](https://codeclimate.com/github/JeffDeCola/my-python-examples/issues)
-[![Go Report Card](https://goreportcard.com/badge/jeffdecola/my-python-examples)](https://goreportcard.com/report/jeffdecola/my-python-examples)
-[![GoDoc](https://godoc.org/github.com/JeffDeCola/my-python-examples?status.svg)](https://godoc.org/github.com/JeffDeCola/my-python-examples)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://jeffdecola.mit-license.org)
 
 `my-python-examples` _is a place to keep my python code snippets and examples._
