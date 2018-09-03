@@ -4,11 +4,11 @@
 set -e -x
 
 # The code is located in /my-python-examples
+# /my-python-examples-updated already created becasue of yml file
 echo "pwd is: " $PWD
 echo "List whats in the current directory"
 ls -lat 
 
-# Note: my-python-examples-updated already created becasue of yml file
 git clone my-python-examples my-python-examples-updated
 
 cd my-python-examples-updated
