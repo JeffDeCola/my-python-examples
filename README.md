@@ -24,8 +24,8 @@ _All sections in alphabetical order._
 ## UNIT TESTING AND MY GITHUB WEBPAGE IS UPDATED USING CONCOURSE
 
 For fun, I use concourse to automate unit testing, update
-[my-python-examples GitHub Webpage](https://jeffdecola.github.io/my-python-examples/) and alert me of
-the changes via repo status and slack.
+[my-python-examples GitHub Webpage](https://jeffdecola.github.io/my-python-examples/)
+and alert me of the changes via repo status and slack.
 
 The unit testing is accomplished by running this script this script
 [here](https://github.com/JeffDeCola/my-python-examples/tree/master/ci/scripts/unit-tests.sh).
