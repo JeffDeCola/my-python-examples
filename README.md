@@ -1,6 +1,6 @@
 # my-python-examples
 
-[![Code Climate](https://codeclimate.com/github/JeffDeCola/my-python-examples/badges/gpa.svg)](https://codeclimate.com/github/JeffDeCola/my-python-examples)
+[![Maintainability](https://api.codeclimate.com/v1/badges/34f7798c66ab9207ea80/maintainability)](https://codeclimate.com/github/JeffDeCola/my-python-examples/maintainability)
 [![Issue Count](https://codeclimate.com/github/JeffDeCola/my-python-examples/badges/issue_count.svg)](https://codeclimate.com/github/JeffDeCola/my-python-examples/issues)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://jeffdecola.mit-license.org)
 
