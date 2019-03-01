@@ -5,7 +5,7 @@ set -e -x
 
 # The code is located in /my-python-examples
 # /coverage-results already created becasue of yml file
-echo "pwd is: " $PWD
+echo "pwd is: $PWD"
 echo "List whats in the current directory"
 ls -lat 
 
