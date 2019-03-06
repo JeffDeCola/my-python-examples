@@ -8,8 +8,7 @@
 
 These python examples also contain info I gathered from other sources.
 
-View my entire list of python examples on
-[my-python-examples GitHub Webpage](https://jeffdecola.github.io/my-python-examples/).
+View my entire list of python examples on [my GitHub Webpage](https://jeffdecola.github.io/my-python-examples/).
 
 ## PYTHON EXAMPLES
 
