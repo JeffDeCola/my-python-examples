@@ -37,7 +37,7 @@ echo " "
 echo "Placeholder to run python tests for my-python-examples" | tee test_coverage.txt
 
 echo "Clean test_coverage.txt file - add some whitespace to the begining of each line"
-sed -i -e 's/^/     /' test/test_coverage.txt
+sed -i -e 's/^/     /' test_coverage.txt
 echo " "
 
 echo "The test_coverage.txt file will be used by the concourse pipeline to send to slack"
