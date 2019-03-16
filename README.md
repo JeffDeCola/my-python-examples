@@ -20,7 +20,7 @@ _All sections in alphabetical order._
 
     _Reading a file a few different ways._
 
-## TEST USING CONCOURSE (OPTIONAL)
+## UPDATE GITHUB WEBPAGE & UNIT TESTS USING CONCOURSE (OPTIONAL)
 
 For fun, I use concourse to  update
 [my-python-examples GitHub Webpage](https://jeffdecola.github.io/my-python-examples/),
