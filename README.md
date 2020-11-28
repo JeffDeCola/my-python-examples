@@ -8,17 +8,25 @@ _A place to keep my python code snippets and examples._
 
 These python examples also contain info I gathered from other sources.
 
-View my entire list of python examples on [my GitHub Webpage](https://jeffdecola.github.io/my-python-examples/).
+Table of Contents,
+
+* [BASIC PROGRAMMING](https://github.com/JeffDeCola/my-python-examples#basic-programming)
+
+Documentation and reference,
+
+* [python-cheat-sheet](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/development/languages/python-cheat-sheet)
+
+[GitHub Webpage](https://jeffdecola.github.io/my-python-examples/)
 
 ## PYTHON EXAMPLES
 
 _All sections in alphabetical order._
 
-* BASIC PROGRAMMING
+### BASIC PROGRAMMING
 
-  * [read-file](https://github.com/JeffDeCola/my-python-examples/tree/master/basic-programming/read-file)
+* [read-file](https://github.com/JeffDeCola/my-python-examples/tree/master/basic-programming/read-file)
 
-    _Reading a file a few different ways._
+  _Reading a file a few different ways._
 
 ## UPDATE GITHUB WEBPAGE & UNIT TESTS USING CONCOURSE (OPTIONAL)
 
