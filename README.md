@@ -4,7 +4,7 @@
 [![Issue Count](https://codeclimate.com/github/JeffDeCola/my-python-examples/badges/issue_count.svg)](https://codeclimate.com/github/JeffDeCola/my-python-examples/issues)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://jeffdecola.mit-license.org)
 
-`my-python-examples` _is a place to keep my python code snippets and examples._
+_A place to keep my python code snippets and examples._
 
 These python examples also contain info I gathered from other sources.
 
