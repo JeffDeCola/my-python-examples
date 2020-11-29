@@ -5,6 +5,7 @@ For fun, I use concourse ci to,
 * Updates the
   [GitHub Webpage](https://jeffdecola.github.io/my-python-examples/)
 * Copies, edits and updates the `README.md` file to `/docs/_includes/README.md`
+* Runs units tests
 * Alerts me of the progress via repo status and slack
 
 ## PIPELINE
@@ -23,6 +24,10 @@ The concourse `jobs` and `tasks` are,
   [task-readme-github-pages.yml](https://github.com/JeffDeCola/my-python-examples/blob/master/ci/tasks/task-readme-github-pages.yml)
   that kicks off shell script
   [readme-github-pages.sh](https://github.com/JeffDeCola/my-python-examples/blob/master/ci/scripts/readme-github-pages.sh)
+* `job-unit-tests` runs task
+  [task-unit-tests.yml](https://github.com/JeffDeCola/my-python-examples/blob/master/ci/tasks/task-unit-tests.yml)
+  that kicks off shell script
+  [unit-tests.sh](https://github.com/JeffDeCola/my-python-examples/tree/master/ci/scripts/unit-tests.sh).
 
 The concourse `resources types` are,
 
