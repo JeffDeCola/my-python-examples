@@ -1,3 +1,5 @@
+_built with
+[concourse ci](https://github.com/JeffDeCola/my-python-examples/blob/master/ci-README.md)_
 
 # PYTHON EXAMPLES
 
