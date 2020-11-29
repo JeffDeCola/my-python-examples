@@ -17,6 +17,8 @@ Documentation and reference,
 * [python-cheat-sheet](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/development/languages/python-cheat-sheet)
 
 [GitHub Webpage](https://jeffdecola.github.io/my-python-examples/)
+_built with
+[concourse ci](https://github.com/JeffDeCola/my-python-examples/blob/master/ci-README.md)_
 
 ## PYTHON EXAMPLES
 
