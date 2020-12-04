@@ -17,7 +17,15 @@ else
     echo " "
 fi
 
-echo "The goal is to test your python code"
+echo "GOAL ----------------------------------------------------------------------------------"
+echo " "
+
+echo "The goal is to set up a go src/github.com/JeffDeCola/my-python-examples directory"
+echo "Then tests will be run in that directory"
+echo "Test coverage results, text_coverage.txt, will be moved to /coverage-results directory"
+echo " "
+
+echo "CHECK THINGS --------------------------------------------------------------------------"
 echo " "
 
 echo "At start, you should be in a /tmp/build/xxxxx directory with two folders:"
@@ -32,19 +40,66 @@ echo "List whats in the current directory"
 ls -la
 echo " "
 
-# RUN unit_tests and it shows the percentage coverage
-# Print to stdout and file using tee
-echo "Placeholder to run python tests for my-python-examples" | tee test_coverage.txt
+echo "SETUP GO ------------------------------------------------------------------------------"
+echo " "
+
+echo "Setup the GOPATH based on current directory"
+echo "export GOPATH=\$PWD"
+export GOPATH=$PWD
+echo " "
+
+echo "Now we must move our code from the current directory ./my-python-examples to" 
+echo "$GOPATH/src/github.com/JeffDeCola/my-python-examples"
+echo "mkdir -p src/github.com/JeffDeCola/"
+mkdir -p src/github.com/JeffDeCola/
+echo "cp -R ./my-python-examples src/github.com/JeffDeCola/."
+cp -R ./my-python-examples src/github.com/JeffDeCola/.
+echo " "
+
+echo "cd src/github.com/JeffDeCola/my-python-examples/example-01"
+cd src/github.com/JeffDeCola/my-python-examples/example-01
+echo " "
+
+echo "Check that you are set and everything is in the right place for go:"
+echo "gopath is: $GOPATH"
+echo "pwd is: $PWD"
+go version
+
+echo "ls -la"
+ls -la
+echo " "
+
+echo "GET GO PACKAGES -----------------------------------------------------------------------"
+echo " "
+
+# echo "go get -u periph.io/x/periph/cmd/..."
+# go get -u periph.io/x/periph/cmd/...
+# echo " "
+
+echo "RUN TESTS -----------------------------------------------------------------------------"
+echo " "
+
+echo "Run go tests"
+echo "go test -cover ./... | tee test/test_coverage.txt"
+echo "   -cover shows the percentage coverage"
+echo "   Put results in /test/test_coverage.txt file"
+# go test -cover ./... | tee test/test_coverage.txt
+echo "Placeholder to run go tests for my-python-examples" | tee testcode/test_coverage.txt
+echo " "
 
 echo "Clean test_coverage.txt file - add some whitespace to the begining of each line"
-sed -i -e 's/^/     /' test_coverage.txt
+echo "sed -i -e 's/^/     /' test/test_coverage.txt"
+sed -i -e 's/^/     /' test/test_coverage.txt
+echo " "
+
+echo "MOVE TEST COVERAGE FILE ---------------------------------------------------------------"
 echo " "
 
 echo "The test_coverage.txt file will be used by the concourse pipeline to send to slack"
 echo " "
 
 echo "Move text_coverage.txt to /coverage-results directory"
-mv "test_coverage.txt" "coverage-results/."
+mv "test/test_coverage.txt" "$GOPATH/coverage-results/"
 echo " "
 
 echo "unit-tests.sh (END)"
