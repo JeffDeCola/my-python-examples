@@ -56,8 +56,8 @@ echo "cp -R ./my-python-examples src/github.com/JeffDeCola/."
 cp -R ./my-python-examples src/github.com/JeffDeCola/.
 echo " "
 
-echo "cd src/github.com/JeffDeCola/my-python-examples/example-01"
-cd src/github.com/JeffDeCola/my-python-examples/example-01
+echo "cd src/github.com/JeffDeCola/my-python-examples/
+cd src/github.com/JeffDeCola/my-python-examples/
 echo " "
 
 echo "Check that you are set and everything is in the right place for go:"
