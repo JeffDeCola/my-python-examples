@@ -76,15 +76,21 @@ echo " "
 # go get -u periph.io/x/periph/cmd/...
 # echo " "
 
-echo "RUN TESTS -----------------------------------------------------------------------------"
+# echo "RUN TESTS -----------------------------------------------------------------------------"
+# echo " "
+
+# echo "Run go tests"
+# echo "go test -cover ./... | tee test/test_coverage.txt"
+# echo "   -cover shows the percentage coverage"
+# echo "   Put results in /test/test_coverage.txt file"
+# go test -cover ./... | tee test/test_coverage.txt
+
+echo "TEST PLACEHOLDER -----------------------------------------------------------------------"
 echo " "
 
-echo "Run go tests"
-echo "go test -cover ./... | tee test/test_coverage.txt"
-echo "   -cover shows the percentage coverage"
-echo "   Put results in /test/test_coverage.txt file"
-# go test -cover ./... | tee test/test_coverage.txt
-echo "Placeholder to run go tests for my-python-examples" | tee testcode/test_coverage.txt
+echo "mkdir -p test"
+mkdir -p test
+echo "Placeholder to run go tests for my-python-examples" | tee test/test_coverage.txt
 echo " "
 
 echo "Clean test_coverage.txt file - add some whitespace to the begining of each line"
