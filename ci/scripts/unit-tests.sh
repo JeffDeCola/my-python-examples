@@ -56,7 +56,7 @@ echo "cp -R ./my-python-examples src/github.com/JeffDeCola/."
 cp -R ./my-python-examples src/github.com/JeffDeCola/.
 echo " "
 
-echo "cd src/github.com/JeffDeCola/my-python-examples/
+echo "cd src/github.com/JeffDeCola/my-python-examples/"
 cd src/github.com/JeffDeCola/my-python-examples/
 echo " "
 
