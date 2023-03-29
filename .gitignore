@@ -1,17 +1,14 @@
 # CONCOURSE
 .credentials.yml
 
-# GO
-coverage.out
+# VSCODE
+.vscode/
 
 # macOS
 .DS_Store
 
-# Ignore binaries
-**/bin/hello-go
+# WINDOWS
+*.jpg:Zone.Identifier
 
-# Ignore test coverage
-**/test/test_coverage.txt
-
-# Ignore binary used for docker build
-**/build-push/hello-go
+# SFTP VS CODE EXTENTION
+sftp.json

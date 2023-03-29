@@ -4,7 +4,6 @@ I use concourse ci to,
 
 * Copy and edit `README.md` to `/docs/_includes/README.md` for
   [GitHub Webpage](https://jeffdecola.github.io/my-python-examples/)
-* TEST code
 * Alert me of the progress via repo status and slack
 
 ## PIPELINE
@@ -23,10 +22,6 @@ The concourse `jobs` and `tasks` are,
   [task-readme-github-pages.yml](https://github.com/JeffDeCola/my-python-examples/blob/master/ci/tasks/task-readme-github-pages.yml)
   that kicks off shell script
   [readme-github-pages.sh](https://github.com/JeffDeCola/my-python-examples/blob/master/ci/scripts/readme-github-pages.sh)
-* `job-unit-tests` runs task
-  [task-unit-tests.yml](https://github.com/JeffDeCola/my-python-examples/blob/master/ci/tasks/task-unit-tests.yml)
-  that kicks off shell script
-  [unit-tests.sh](https://github.com/JeffDeCola/my-python-examples/tree/master/ci/scripts/unit-tests.sh)
 
 The concourse `resources types` are,
 
@@ -37,7 +32,7 @@ The concourse `resources types` are,
   [docker image](https://hub.docker.com/r/cfcommunity/slack-notification-resource)
   that will notify slack on your progress
 * `resource-repo-status` uses a resource type
-  [docker image](https://hub.docker.com/r/dpb587/github-status-resource)
+  [docker image](https://hub.docker.com/r/jeffdecola/github-status-resource-clone)
   that will update your git status for that particular commit
 
 For more information on using concourse for continuous integration,
