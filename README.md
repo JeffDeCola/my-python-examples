@@ -1,4 +1,4 @@
-# my-python-examples
+# MY PYTHON EXAMPLES
 
 [![Tag Latest](https://img.shields.io/github/v/tag/jeffdecola/my-python-examples)](https://github.com/JeffDeCola/my-python-examples/tags)
 [![codeclimate Maintainability](https://api.codeclimate.com/v1/badges/34f7798c66ab9207ea80/maintainability)](https://codeclimate.com/github/JeffDeCola/my-python-examples/maintainability)
