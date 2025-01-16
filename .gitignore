@@ -1,14 +1,10 @@
-# CONCOURSE
-.credentials.yml
+# python-generic.gitignore
 
-# VSCODE
-.vscode/
+# CONCOURSE SECRETS
+.credentials.yml
 
 # macOS
 .DS_Store
 
 # WINDOWS
 *.jpg:Zone.Identifier
-
-# SFTP VS CODE EXTENTION
-sftp.json
